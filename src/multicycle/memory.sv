@@ -12,7 +12,7 @@ module memory(
     input  [31:0] wr_data 
 );
 
-	logic	[12:0]  address_a;
+   logic  [12:0] address_a;
    logic         rd_en_0_int;
 	
 	assign address_a = wr_en ? wr_addr[12:0] : rd_addr_0[12:0];

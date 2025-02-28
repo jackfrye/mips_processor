@@ -1,0 +1,3 @@
+[submodule "sw/Python-MIPS-Assembler"]
+	path = sw/Python-MIPS-Assembler
+	url = https://github.com/zeckendorf/Python-MIPS-Assembler.git
